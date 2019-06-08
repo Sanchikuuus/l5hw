@@ -1,5 +1,5 @@
 # l5hw
 
-L5 HomeWork
-CoffeeMashine App
+L5 HomeWork\n
+CoffeeMashine App\n
 Enjoy!
