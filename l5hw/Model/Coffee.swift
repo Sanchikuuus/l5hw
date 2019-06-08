@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Coffee {
+class Coffee : NSObject {
     private var water : Int
     private var coffee : Int
     private var milk : Int
@@ -32,6 +32,9 @@ class Coffee {
 
 
 class Espresso : Coffee {
+    override var description: String {
+        return "Espresso"
+    }
     init() {
         super.init(water: 50, coffee: 7, milk: 0)
     }
@@ -39,6 +42,9 @@ class Espresso : Coffee {
 
 
 class Americano : Coffee {
+    override var description: String {
+        return "Americano"
+    }
     init() {
         super.init(water: 150, coffee: 7, milk: 0)
     }
@@ -46,6 +52,9 @@ class Americano : Coffee {
 
 
 class Cappuccino : Coffee {
+    override var description: String {
+        return "Cappuccino"
+    }
     init() {
         super.init(water: 50, coffee: 7, milk: 100)
     }
@@ -53,6 +62,9 @@ class Cappuccino : Coffee {
 
 
 class Latte : Coffee {
+    override var description: String {
+        return "Latte"
+    }
     init() {
         super.init(water: 50, coffee: 7, milk: 100)
     }
