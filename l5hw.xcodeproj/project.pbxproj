@@ -13,6 +13,8 @@
 		BC374D6122A998EC001463EF /* l5hw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC374D5F22A998EC001463EF /* l5hw.xcdatamodeld */; };
 		BC374D6322A998EE001463EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC374D6222A998EE001463EF /* Assets.xcassets */; };
 		BC374D6622A998EE001463EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC374D6422A998EE001463EF /* LaunchScreen.storyboard */; };
+		BC374D7122A9999C001463EF /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC374D7022A9999C001463EF /* Coffee.swift */; };
+		BC374D7322A99E7A001463EF /* CoffeeMashine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC374D7222A99E7A001463EF /* CoffeeMashine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BC374D6222A998EE001463EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC374D6522A998EE001463EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC374D6722A998EE001463EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC374D7022A9999C001463EF /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		BC374D7222A99E7A001463EF /* CoffeeMashine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMashine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		BC374D5722A998EB001463EF /* l5hw */ = {
 			isa = PBXGroup;
 			children = (
+				BC374D6D22A9995D001463EF /* Model */,
+				BC374D6E22A9996C001463EF /* View */,
+				BC374D6F22A9997B001463EF /* Controller */,
 				BC374D5822A998EB001463EF /* AppDelegate.swift */,
-				BC374D5A22A998EC001463EF /* ViewController.swift */,
-				BC374D5C22A998EC001463EF /* Main.storyboard */,
 				BC374D6222A998EE001463EF /* Assets.xcassets */,
 				BC374D6422A998EE001463EF /* LaunchScreen.storyboard */,
 				BC374D6722A998EE001463EF /* Info.plist */,
 				BC374D5F22A998EC001463EF /* l5hw.xcdatamodeld */,
 			);
 			path = l5hw;
+			sourceTree = "<group>";
+		};
+		BC374D6D22A9995D001463EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC374D7022A9999C001463EF /* Coffee.swift */,
+				BC374D7222A99E7A001463EF /* CoffeeMashine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC374D6E22A9996C001463EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC374D5C22A998EC001463EF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC374D6F22A9997B001463EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC374D5A22A998EC001463EF /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC374D7322A99E7A001463EF /* CoffeeMashine.swift in Sources */,
 				BC374D6122A998EC001463EF /* l5hw.xcdatamodeld in Sources */,
+				BC374D7122A9999C001463EF /* Coffee.swift in Sources */,
 				BC374D5B22A998EC001463EF /* ViewController.swift in Sources */,
 				BC374D5922A998EC001463EF /* AppDelegate.swift in Sources */,
 			);
